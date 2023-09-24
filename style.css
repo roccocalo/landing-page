@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin:0px;
 }
 
 .header {
@@ -8,7 +9,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(52,91,86);
-    margin: -10px ;
     margin-bottom: auto;
     padding: 30px;
     height: 10px;
@@ -20,6 +20,7 @@ body {
     display: flex;
     gap: 17px;
     font-size: 19px;
+    caret-color: transparent;
 }
 
 .Name {
@@ -43,7 +44,6 @@ a {
     height: 690px;
     background-size: cover ;
     background-position: center;
-    margin: -10px;
     display: flex;
     justify-content: center;
 }
@@ -71,6 +71,7 @@ button {
     border: none;
     padding: 8px;
     margin: 4px 2px;
+    caret-color: transparent;
 }
 
 
@@ -99,12 +100,12 @@ button {
     border-radius: 8px;
     width: 450px;
     height: auto;
-    
+    caret-color: transparent;
 }
 
 .content-photo {
     background-color:  rgb(52,91,86);
-    margin:-8px;
+    margin:0px;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -118,6 +119,7 @@ button {
     border-color: rgba(125,167,167,255);
     border-radius: 8px;
     text-align: center;
+    caret-color: transparent;
 }
 
 .text {
@@ -139,7 +141,7 @@ button {
 
 .content-text {
     background-color:  rgb(52,91,86);
-    margin:-8px;
+   
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -152,7 +154,7 @@ p {
     font-size: 22px;
     text-align: center;
     max-width: 1100px;
-    margin: 30px ;
+    margin: 25px ;
     margin-bottom: 60px;
     background-color: rgba(125,167,167,0.7);
     border-radius: 8px;
@@ -160,13 +162,14 @@ p {
 }
 
 .content-calltoaction {
+    display: flex;
+    justify-content: center;
     background-image: url(./images/background3.png) ;
     height: 690px;
     background-size: cover ;
     background-position: center;
-    margin: -10px;
-    display: flex;
-    justify-content: center;
+    
+    
 }
 
 .contact-container {
@@ -197,6 +200,5 @@ p {
     justify-content: center;
     gap: 20px;
     background-color: rgb(52,91,86);
-    margin: -10px;
     padding: 10px;
 }
