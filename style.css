@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content-principal {
+    background-image: url(./images/background.png) ;
+    height: 490px;
+    background-size: 100% ;
+    background-position: center;
+    margin: -10px;
+    
+    display: flex;
+}
+
+.info, img {
+    height: auto;
+    width: 200px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 35px;
+}
+
