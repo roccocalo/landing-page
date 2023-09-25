@@ -2,7 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    color: rgb(211, 222, 214);
+    font-family: 'Courier New', Courier, monospace;
+    caret-color: transparent;
 }
+
 
 .header {
     display: flex;
@@ -19,12 +23,9 @@ body {
     display: flex;
     gap: 17px;
     font-size: 19px;
-    caret-color: transparent;
 }
 
 .Name {
-    color: rgb(211, 222, 214);
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 23px;
 }
@@ -32,9 +33,7 @@ body {
 a {
     text-decoration: none;
     color: rgb(211, 222, 214);
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 520;
-
 }
 
 .content-principal {
@@ -57,8 +56,6 @@ a {
 }
 
 button a {
-    color: rgb(211, 222, 214);
-    font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
 }
 
@@ -69,7 +66,6 @@ button {
     border: none;
     padding: 8px;
     margin: 4px 2px;
-    caret-color: transparent;
 }
 
 
@@ -81,8 +77,6 @@ button {
     border-radius: 8px;
     padding: 10px;
     gap: 8px;
-    color: rgb(211, 222, 214);
-    font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
     padding-left: 30px;
 }
@@ -98,7 +92,6 @@ button {
     border-radius: 8px;
     width: 450px;
     height: auto;
-    caret-color: transparent;
 }
 
 .content-photo {
@@ -118,12 +111,10 @@ button {
     border-color: rgba(125, 167, 167, 255);
     border-radius: 8px;
     text-align: center;
-    caret-color: transparent;
+
 }
 
 .text {
-    color: rgb(211, 222, 214);
-    font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
     text-align: center;
 }
@@ -139,7 +130,6 @@ button {
 
 .content-text {
     background-color: rgb(52, 91, 86);
-
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -147,8 +137,6 @@ button {
 }
 
 p {
-    color: rgb(211, 222, 214);
-    font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
     text-align: center;
     max-width: 1100px;
@@ -180,8 +168,6 @@ p {
     background-color: rgba(52, 91, 86, 0.7);
     border-radius: 8px;
     padding: 15px;
-    color: rgb(211, 222, 214);
-    font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
     padding-left: 30px;
 }
